@@ -7,7 +7,7 @@ from kmk.extensions.rgb import RGB
 
 keyboard = KMKKeyboard()
 
-# ===== KEYS =====
+# KEYS
 keyboard.matrix = KeysScanner(
     pins=[
         board.GP26,  # SW1
@@ -19,33 +19,34 @@ keyboard.matrix = KeysScanner(
 )
 
 keyboard.keymap = [[
-    KC.MEDIA_PLAY_PAUSE,   # SW1
-    KC.RGB_MOD,            # SW2
-    KC.MEDIA_PREV_TRACK,   # SW3
-    KC.MEDIA_NEXT_TRACK,   # SW4
+    KC.MEDIA_PLAY_PAUSE,
+    KC.RGB_MOD,
+    KC.MEDIA_PREV_TRACK,
+    KC.MEDIA_NEXT_TRACK,
 ]]
 
-# ===== ROTARY ENCODER (EC11) =====
+# EC11
 encoder = EncoderHandler()
 encoder.pins = (
-    (board.GP4, board.GP2, board.GP1),  # A, B, Button
+    (board.GP4, board.GP2),  # A, B
 )
 encoder.map = [
-    ((KC.VOLD, KC.VOLU, KC.MUTE),)
+    (KC.VOLD, KC.VOLU),
 ]
 keyboard.modules.append(encoder)
 
-# ===== RGB (5x SK6812 MINI) =====
+# SK6812 MINI
 rgb = RGB(
-    pixel_pin=board.GP6,  # DIN
+    pixel_pin=board.GP6,
     num_pixels=5,
     val_limit=80,
-    hue_default=160,      # blue
+    hue_default=160,
     sat_default=255,
     val_default=60,
 )
 keyboard.extensions.append(rgb)
 
-# ===== START =====
 if __name__ == '__main__':
     keyboard.go()
+
+
