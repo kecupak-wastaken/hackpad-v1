@@ -1,5 +1,8 @@
 # hackpad-v1
-First time using any type of cad. This hackpad serves mostly as just media control. Mostly me just learing how to use the softwares.
+First time using any type of cad. 
+
+This hackpad serves mostly as media control.
+
 <img width="1206" height="930" alt="Screenshot 2025-12-16 184132" src="https://github.com/user-attachments/assets/0dc4f6ac-0d53-4cb3-a5bd-20f7bed5e7bf" />
 
 
