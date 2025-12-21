@@ -19,11 +19,16 @@ This hackpad serves mostly as media control.
 
 <img width="737" height="1252" alt="Screenshot 2025-12-15 222504" src="https://github.com/user-attachments/assets/9ad76f81-7aa8-40cd-9f7a-b53bd27563f8" />
 
-# Parts:
--5 Leds (SK 6812 MINI)
+# BOM:
 
--4 Swithces (SW Cherry MX)
+5x SK6812 MINI Leds
 
--XIAO RP2040
+1x XIAO RP2040
 
--EC11 rotary encoder
+4x Blank DSA Keycaps
+
+4x Cherry MX Switches
+
+4x M3x16 Bolt
+
+4x M3 Heatset
