@@ -8,7 +8,8 @@ This hackpad serves mostly as media control.
 
 # case
 
-<img width="830" height="654" alt="Screenshot 2025-12-15 222128" src="https://github.com/user-attachments/assets/28de425d-fcca-47bc-ad67-fc3e801f51c8" />
+<img width="1003" height="706" alt="image" src="https://github.com/user-attachments/assets/059f99ff-fe46-4272-b7c4-76576cbae67c" />
+
 
 # shcematic
 
